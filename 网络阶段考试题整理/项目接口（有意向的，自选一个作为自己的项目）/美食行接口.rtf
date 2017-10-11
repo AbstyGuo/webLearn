@@ -1,0 +1,258 @@
+{\rtf1\ansi\ansicpg936\cocoartf1265
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red217\green11\blue0;\red164\green8\blue0;\red98\green147\blue254;
+\red43\green71\blue20;\red46\green111\blue253;\red221\green32\blue103;\red14\green0\blue45;\red255\green39\blue18;
+\red206\green59\blue0;\red0\green68\blue254;\red0\green90\blue124;\red255\green255\blue51;\red134\green205\blue77;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17940\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs48 \cf2 //\'d2\'d1\'b5\'c7\'c2\'bc\'b7\'a2\'cb\'cd\'c7\'eb\'c7\'f3 \'d4\'d9\'b5\'c7\'c2\'bd\'bb\'f1\'c8\'a1\'d0\'c5\'cf\'a2\
+http://api.meishixing.com/user/user/userbaseinfo/uid=0&session_id=0010132cb1f4b3af5946570a10439adf92c825\
+\
+http://api.meishixing.com/other/config/config/session_id=0010132cb1f4b3af5946570a10439adf92c825\
+\
+\{\
+"status": 200, \
+"msg": "", \
+"append_info": \{\}, \
+"result": \{\
+"is_followed": 0, \
+"user_image": "", \
+"user_fans_count": 0, \
+"user_foodzine_count": 0, \
+"sex": 0, \
+"level_title": "\\u8def\\u4eba", \
+"like_count": 4, \
+"user_id": 184604, \
+"last_feedread_time": "2014-07-16 15:01:45", \
+"introduction": "", \
+"level_id": 1, \
+"reputation": 0, \
+"email": "59459@qq.com", \
+"tobeloved": 0, \
+"user_tweet_count": 0, \
+"picture_count": 0, \
+"register_from": 2, \
+"name": "likey", \
+"favorite_place_count": 1, \
+"level_value": 1, \
+"user_followed_foodzine_count": 0, \
+"user_follow_count": 7\
+\}\
+\}\
+\
+\
+\
+\
+//\'d6\'f7\'d2\'b3\'a3\'ba\
+\cf0 http://api.meishixing.com/picture/picturelist/last/city_id=3&session_id=001013777e62e45f4eed105240a21f96835275&lat=40.03583&lng=116.35095&page=1\
+\
+Content-Type: text/html; charset=UTF-8\
+\
+\cf2 //\'ca\'b3\'ce\'ef\'cf\'ea\'c7\'e9\'bd\'d3\'bf\'da\cf0 \
+http://api.meishixing.com/tweet/tweet/detail/session_id=00101324c237bb85bc688c3b2f49253c9d6815&tweet_id=901066\
+\
+\cf2 //\'b5\'e3\'d4\'de\'bd\'d3\'bf\'da\cf0 \
+POST http://api.meishixing.com/like/like/like_food HTTP/1.1\
+Content-Length: 106\
+Content-Type: application/x-www-form-urlencoded\
+Host: api.meishixing.com\
+Connection: Keep-Alive\
+User-Agent: android-client-58 Paros/3.2.13\
+Cookie: sessionid=00101324c237bb85bc688c3b2f49253c9d6815;pos-x=116.37021;pos-y=40.03702\
+\
+state=1&food_id=768768&place_id=956988&session_id=00101324c237bb85bc688c3b2f49253c9d6815&picture_id=892879\
+\cf3 \'c8\'a1\'cf\'fb\'d4\'de\
+\cf0 state=0&food_id=768768&place_id=956988&session_id=00101324c237bb85bc688c3b2f49253c9d6815&picture_id=892879\
+\
+\{\
+"status": 200, \
+"msg": "", \
+"append_info": \{\}, \
+"result": \{\
+\cf4 "want_it_total": 0\cf5 \
+\cf0 \}\
+\}\
+\
+\cf2 //\'c6\'c0\'c2\'db\'bd\'d3\'bf\'da\
+\cf0 POST http://api.meishixing.com/comment/comment/add_tweetcomment HTTP/1.1\
+Content-Length: 108\
+Content-Type: application/x-www-form-urlencoded\
+Host: api.meishixing.com\
+Connection: Keep-Alive\
+User-Agent: android-client-58 Paros/3.2.13\
+Cookie: sessionid=00101324c237bb85bc688c3b2f49253c9d6815;pos-x=116.37021;pos-y=40.03702\
+\
+//\'ca\'fd\'d7\'d6\
+session_id=00101324c237bb85bc688c3b2f49253c9d6815&comment=\cf6 +11\cf0 &reply_uid=0&tweet_id=901066&reply_comment_id=0\
+\
+//\'ce\'c4\'d7\'d6\
+session_id=00101324c237bb85bc688c3b2f49253c9d6815&comment=\cf4 %E4%BD%A0%E5%A5%BD%E6%BC%82%E4%BA%AE\cf0 &reply_uid=0&tweet_id=901066&reply_comment_id=0\
+\
+\
+\
+\cf2 //\'bb\'f1\'c8\'a1\'c6\'c0\'c2\'db\'bd\'d3\'bf\'da\
+\cf0 http://api.meishixing.com/comment/comment/commentlistall/pic_id=892879&tweet_id=901066\
+\
+\cf7 //\'d4\'da\'c4\'c4\'c0\'ef\'bf\'c9\'d2\'d4\'b3\'d4\'b5\'bd\'bd\'d3\'bf\'da\
+\cf0 GET http://api.meishixing.com/place/place/placedetail/place_id=956988&session_id=00101324c237bb85bc688c3b2f49253c9d6815\
+\
+\cf2 //\'b8\'f6\'c8\'cb\'d7\'ca\'c1\'cf\'bd\'d3\'bf\'da\
+\cf0 GET http://api.meishixing.com/user/user/userbaseinfo/uid=113145&session_id=00101324c237bb85bc688c3b2f49253c9d6815\
+\
+\cf2 //\'b8\'fc\'b6\'e0\'d7\'e3\'bc\'a3\'bd\'d3\'bf\'da\
+\cf8 GET http://api.meishixing.com/user/picturelist/footprint/uid=113145&session_id=00101324c237bb85bc688c3b2f49253c9d6815&pagecount=10&date=2014-07-11\
+\
+\cf9 //\'b9\'d8\'d7\'a2\'bd\'d3\'bf\'da\
+\cf8 GET http://api.meishixing.com/user/social/following/session_id=00101324c237bb85bc688c3b2f49253c9d6815&uid=113145&page=1\
+\
+\cf2 //\'b7\'db\'cb\'bf\'bd\'d3\'bf\'da\
+\cf8 GET http://api.meishixing.com/user/social/fans/session_id=00101324c237bb85bc688c3b2f49253c9d6815&uid=113145&page=1 \
+\
+\cf10 //\'b5\'e3\'bb\'f7\'b9\'d8\'d7\'a2\'b1\'f0\'c8\'cb \'b7\'a2\'cb\'cd\'b5\'c4\'c7\'eb\'c7\'f3\
+\cf8 GET http://api.meishixing.com/user/social/follow_user/session_id=00101324c237bb85bc688c3b2f49253c9d6815&uid=184914\
+\
+\cf0 \
+\pard\tx866\pardeftab866\pardirnatural
+
+\f1\fs30 \cf0 \CocoaLigature0 response:\{\
+    "append_info" =     \{\
+    \};\
+    msg = "";\
+    result =     \{\
+        "session_id" = 00101213d140fcc6a20efb6d547ca759c882bf;\
+        "user_info" =         \{\
+            email = "59459@qq.com";\
+            introduction = "";\
+            "last_feedread_time" = "2014-07-12 10:57:52";\
+            "level_id" = 1;\
+            "level_title" = "\\U8def\\U4eba";\
+            "level_value" = 1;\
+            name = likey;\
+            "picture_count" = 0;\
+            "register_from" = 2;\
+            reputation = 0;\
+            sex = 0;\
+            tobeloved = 0;\
+            "user_id" = 184604;\
+            "user_image" = "";\
+        \};\
+    \};\
+    status = 200;\
+\}\
+\
+
+\f0 //\'b5\'e3\'bb\'f7\'cb\'d1\'cb\'f7
+\f1 \
+\cf11 http://api.meishixing.com/other/top/hot_region_and_food/city_id=3\
+\
+
+\f0 //\'c8\'c8\'c3\'c5\'b5\'ea\'c6\'cc\
+http://api.meishixing.com/place/place/topviewweek/city_id=3&lat=40.036617&lng=116.36821&page=1\
+
+\f1 \
+\
+
+\f0 //\'b5\'e3\'bb\'f7\'b2\'cd\'b9\'dd\
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&lat=40.036617&lng=116.36821&page=1&region_id=1034\
+\'bc\'cc\'d0\'f8\'c9\'ee\'c8\'eb\
+http://api.meishixing.com/place/place/placedetail/place_id=18245&session_id=0010132cb1f4b3af5946570a10439adf92c825\
+\
+\
+//\'b5\'e3\'bb\'f7\'ce\'bb\'d6\'c3\
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&lat=40.036617&lng=116.36821&page=1&food_category_name=%E5%8C%97%E4%BA%AC%E8%8F%9C \
+\
+\'a1\'a2\'a1\'a2\'bf\'aa\'ca\'bc\'cb\'d1\'cb\'f7\
+http://api.meishixing.com/search/suggest/query_log/keyword=a&city_id=3\
+\
+\'a1\'a2\'a1\'a2\'b5\'e3\'bb\'f7\'c6\'e4\'d6\'d0\'d2\'bb\'cf\'ee\
+\'a1\'a2\'a1\'a2\'b2\'cd\'b9\'dd\
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&lat=40.036617&lng=116.36821&page=1&keyword=aa\
+//\'b5\'e3\'bb\'f7\'cb\'d1\'cb\'f7\'b2\'cd\'b9\'dd\
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&lat=40.036617&lng=116.36821&page=1&keyword=%E6%B1%89\
+\'a1\'a2\'a1\'a2\'ca\'b3\'ce\'ef\
+http://api.meishixing.com/picture/picturelist/get_picture_by_city_food/city_id=3&food_name=aa&page=1\
+\
+\'a1\'a2\'a1\'a2\'ba\'ba\'d7\'d6\'c7\'e9\'bf\'f6
+\f1 \
+http://api.meishixing.com/search/suggest/query_log/keyword=%E6%B1%89&city_id=3\
+\
+
+\f0 \'b8\'df\'bc\'b6\'cb\'d1\'cb\'f7
+\f1 \
+
+\f0 \'a1\'a2\'a1\'a2\'c7\'f8\'d3\'f2\'d1\'a1\'d4\'f1
+\f1 \
+http://api.meishixing.com/place/place/region/city_id=3&lat=40.036617&lng=116.36821\
+
+\f0 \'a1\'a2\'a1\'a2\'b5\'e3\'bb\'f7\'cb\'d1\'cb\'f7
+\f1 \
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&\cf12 lat=40.036617\cf11 &\cf12 lng=116.36821\cf11 &page=1&\cf13 keyword=%E5%95%8A\cf11 &\cf9 region_id=1055\cf11 &\cf2 food_category_name=%E5%B7%9D%E8%8F%9C\cf11 &\cf2 price=0%7E50\
+\
+http://api.meishixing.com/search/nearby/queryplace/city_id=3&lat=40.036617&lng=116.36821&page=1&food_category_name=%E4%B8%9C%E5%8D%97%E4%BA%9A%E8%8F%9C&price=100%7E200\cf11 \
+\
+\
+\
+\cf14 http://api.meishixing.com/place/food/namelist/place_id=23467\
+\
+
+\f0 \'b8\'f6\'c8\'cb\'d6\'f7\'d2\'b3
+\f1 \
+http://api.meishixing.com/user/user/userbaseinfo/uid=140229&session_id=0010132cb1f4b3af5946570a10439adf92c825\
+
+\f0 \'b5\'e3\'bb\'f7\'b9\'d8\'d7\'a2
+\f1 \
+http://api.meishixing.com/user/social/follow_user/session_id=0010132cb1f4b3af5946570a10439adf92c825&uid=140229\
+\{\
+"status": 200, \
+"msg": "", \
+"append_info": \{\}, \
+"result": \{\}\
+\}\
+\
+\
+
+\f0 \'b8\'bd\'bd\'fc\'c3\'c0\'ca\'b3
+\f1 \
+http://api.meishixing.com/picture/picturelist/nearby/correct_offset=0&lat=40.037457&lng=116.36977&page=1\
+
+\f0 \'b8\'bd\'bd\'fc\'b2\'cd\'b9\'dd
+\f1 \
+http://api.meishixing.com/search/nearby/recommandplace/lat=40.037457&lng=116.36977&page=1&correct_offset=0&distance=1000&price=0%7E200000&food_category_name= \
+
+\f0 \'a1\'a2\'a1\'a2\'a1\'a2\'a1\'a2\'a1\'a2
+\f1 \
+http://api.meishixing.com/search/nearby/recommandplace/lat=40.037457&lng=116.36977&page=1&correct_offset=0&distance=3000&price=100%7E200&food_category_name= \
+
+\f0 \'a1\'a2\'a1\'a2
+\f1 \
+http://api.meishixing.com/search/nearby/recommandplace/lat=40.037457&lng=116.36977&page=1&correct_offset=0&distance=3000&price=100%7E200&food_category_name=%E6%B1%9F%E6%B5%99%E8%8F%9C\
+\
+
+\f0 \'c8\'c8\'c3\'c5\'c3\'c0\'ca\'b3\
+http://api.meishixing.com/picture/picturelist/hot_food/session_id=0010132cb1f4b3af5946570a10439adf92c825&city_id=3&lat=40.037457&lng=116.36977
+\f1 \
+\
+
+\f0 \'c8\'c8\'c3\'c5\'b0\'f1\'b5\'a5
+\f1 \
+http://api.meishixing.com/other/top/first/city_id=3\
+\
+
+\f0 \'c3\'c0\'ca\'b3\'d4\'d3\'d6\'be
+\f1 \
+http://api.meishixing.com/foodzine/weekly/list/city_id=3&state=2&page=1\
+\
+
+\f0 \'ce\'d2\'b5\'c4\'d7\'e3\'bc\'a3
+\f1 \
+http://api.meishixing.com/user/picturelist/footprint/uid=184604&session_id=0010132cb1f4b3af5946570a10439adf92c825&pagecount=10&date=2014-07-20\
+
+\f0 \'a1\'a2\'a1\'a2\'ce\'d2\'b5\'c4\'ca\'d5\'b2\'d8
+\f1 \
+http://api.meishixing.com/user/picturelist/favorite_place_list/session_id=0010132cb1f4b3af5946570a10439adf92c825&page=1\
+
+\f0 \'a1\'a2\'a1\'a2\'ce\'d2\'b5\'c4\'cf\'b2\'bb\'b6\
+
+\f1 http://api.meishixing.com/user/picturelist/favorite_food_list/session_id=0010132cb1f4b3af5946570a10439adf92c825&page=1&uid=0}

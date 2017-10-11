@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg936\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset134 STHeitiSC-Light;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;\red0\green0\blue255;\red163\green21\blue21;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18100\viewh10900\viewkind0
+\deftab963
+\pard\tx963\pardeftab963\pardirnatural
+
+\f0\fs40 \cf2 \CocoaLigature0 //
+\f1 \'ca\'d7\'d2\'b3\'b6\'a5\'b2\'bf\'cd\'bc\'c6\'ac
+\f0 \cf0 \
+\cf3 #define kShouYeImage @\cf4 "http://42.120.4.67/api/app/poster/index?app_id=161"\cf3 \
+\cf2 //
+\f1 \'d7\'ee\'d0\'c2\'d7\'ca\'d1\'b6
+\f0 \cf0 \
+\cf3 #define kNewZiXun @\cf4 "http://42.120.4.67/api/app/information/public_list?app_id=161&count=10"\cf3 \
+\cf2 //
+\f1 \'d7\'ee\'d0\'c2\'d7\'ca\'d1\'b6\'cf\'ea\'c7\'e9
+\f0 \cf0 \
+\cf3 #define kZiXunDetail @\cf4 "http://42.120.4.67/api/app/information/detail?information_id=%d"\cf3 \
+\cf2 //
+\f1 \'d0\'d0\'d2\'b5\'d7\'ca\'d1\'b6\'b7\'d6\'c0\'e0
+\f0 \cf0 \
+\cf3 #define kZiXunHangYeCategory @\cf4 "http://42.120.4.67/api/app/information/category?app_id=161"\cf3 \
+\cf2 //
+\f1 \'d0\'d0\'d2\'b5\'d7\'ca\'d1\'b6\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kZiXunList @\cf4 "http://42.120.4.67/api/app/information/public_list?app_id=161&page=%d"\cf3 \
+\cf2 //
+\f1 \'c4\'b3\'d2\'bb\'c6\'b7\'d6\'d6\'d0\'d0\'d2\'b5\'d7\'ca\'d1\'b6\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kOneZiXunList @\cf4 "http://42.120.4.67/api/app/information/public_list?app_id=161&category_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'b2\'fa\'c6\'b7\'b7\'d6\'c0\'e0
+\f0 \cf0 \
+\cf3 #define kProductCategory @\cf4 "http://42.120.4.67/api/app/product/category_relation?&app_id=161"\cf3 \
+\cf2 //
+\f1 \'b2\'fa\'c6\'b7\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kProductList @\cf4 "http://42.120.4.67/api/app/product/public_list?app_id=161&page=%d"\cf3 \
+\cf2 //
+\f1 \'c4\'b3\'d2\'bb\'b2\'fa\'c6\'b7\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kOneProductList @\cf4 "http://42.120.4.67/api/app/product/public_list?app_id=161&category_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'b2\'fa\'c6\'b7\'cf\'ea\'c7\'e9
+\f0 \cf0 \
+\cf3 #define kProductDetail @\cf4 "http://42.120.4.67/api/app/product/detail?product_id=%d&app_id=161"\cf3 \
+\cf2 //
+\f1 \'c9\'cc\'bc\'d2\'b7\'d6\'c0\'e0
+\f0 \cf0 \
+\cf3 #define kShopCategory @\cf4 "http://42.120.4.67/api/app/business/category?app_id=161"\cf3 \
+\cf2 //
+\f1 \'c9\'cc\'bc\'d2\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kShopList @\cf4 "http://42.120.4.67/api/app/business/public_list?app_id=161&page=%d"\cf3 \
+\cf2 //
+\f1 \'c4\'b3\'d2\'bb\'c9\'cc\'bc\'d2\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kOneShopList @\cf4 "http://42.120.4.67/api/app/business/public_list?app_id=161&category_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'c9\'cc\'bc\'d2\'cf\'ea\'c7\'e9
+\f0 \cf0 \
+\cf3 #define kShopDetail @\cf4 "http://42.120.4.67/api/app/business/detail?business_id=%d&app_id=161"\cf3 \
+\cf2 //
+\f1 \'c4\'b3\'d2\'bb\'c9\'cc\'bc\'d2\'b2\'fa\'c6\'b7\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kOneShopProductList @\cf4 "http://42.120.4.67/api/app/product/public_list?app_id=161&business_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'c4\'b3\'d2\'bb\'c9\'cc\'bc\'d2\'d7\'ca\'d1\'b6\'c1\'d0\'b1\'ed
+\f0 \cf0 \
+\cf3 #define kOneShopZiXunList @\cf4 "http://42.120.4.67/api/app/information/public_list?app_id=161&business_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'cb\'d1\'cb\'f7
+\f0 \cf0 \
+\cf3 #define kSearchProductUrl @\cf4 "http://42.120.4.67/api/app/product/search_list?app_id=161&q=%@&page=%d"\cf3 \
+#define kSearchBusinessUrl @\cf4 "http://42.120.4.67/api/app/business/search_list?app_id=161&q=%@&page=%d"\cf3 \
+\cf0 \
+\cf2 //
+\f1 \'c6\'f3\'d2\'b5\'d0\'c5\'cf\'a2\'a3\'a8\'cb\'bd\'c8\'cb\'ca\'fd\'be\'dd\'a3\'a9
+\f0 \cf0 \
+\cf2 //
+\f1 \'d7\'ca\'d1\'b6
+\f0 \cf0 \
+\cf3 #define kPrivateZiXunCategory @\cf4 "http://42.120.4.67/api/app/information/private_category?app_id=161&code=%@"\cf3 \
+#define kPrivateZiXunList @\cf4 "http://42.120.4.67/api/app/information/private_list?app_id=161&code=%@&page=%d"\cf3 \
+#define kPrivateOneList @\cf4 "http://42.120.4.67/api/app/information/private_list?app_id=161&code=%@&category_id=%d&page=%d"\cf3 \
+\cf2 //
+\f1 \'b2\'fa\'c6\'b7
+\f0 \cf0 \
+\cf3 #define kPrivateProductCategory @\cf4 "http://42.120.4.67/api/app/product/private_category?app_id=161&code=%@"\cf3 \
+#define kPrivateProductList @\cf4 "http://42.120.4.67/api/app/product/private_list?app_id=161&code=%@&page=%d"\cf3 \
+#define kPrivateOneProductList  @\cf4 "http://42.120.4.67/api/app/product/private_list?app_id=161&category_id=%d&page=%d&code=%@"\cf3 \
+\cf2 //
+\f1 \'c9\'cc\'bc\'d2\'bd\'e9\'c9\'dc
+\f0 \cf0 \
+\cf3 #define kPrivateShopUrl @\cf4 "http://42.120.4.67/api/app/business/detail?business_id=%d&code=%@&app_id=161"\cf3 \
+\cf0 \
+\cf2 //
+\f1 \'bb\'f1\'c8\'a1\'c1\'aa\'cf\'b5\'b7\'bd\'ca\'bd
+\f0 \cf0 \
+\cf3 #define kPrivateContact @\cf4 "http://42.120.4.67/api/app/business/private_detail?app_id=161&code=%@"\cf3 \
+\cf2 //
+\f1 \'b8\'fc\'d0\'c2\'c1\'aa\'cf\'b5\'b7\'bd\'ca\'bd
+\f0 (post
+\f1 \'c7\'eb\'c7\'f3
+\f0  app_id=161   code    business_contact  business_phone  business_addr  business_qq)\cf0 \
+\cf3 #define kUpdateContact @\cf4 "http://42.120.4.67/api/app/business/update"\cf3 \
+\cf2 //
+\f1 \'b8\'fc\'d0\'c2\'c6\'f3\'d2\'b5\'d0\'c5\'cf\'a2\'a3\'a8
+\f0 post
+\f1 \'c7\'eb\'c7\'f3
+\f0  app_id=161   code  business_name business_intro  business_logo   filename
+\f1 \'a3\'a9
+\f0 \cf0 \
+\cf2 //
+\f1 \'b8\'fc\'d0\'c2\'b2\'fa\'c6\'b7\'b7\'d6\'c0\'e0
+\f0  
+\f1 \'a3\'a8
+\f0 app_id=161  code=%@  business_cats=2032%2C2045%2C2051%2C2057
+\f1 \'a3\'a9
+\f0 \cf0 \
+\cf2 //
+\f1 \'cb\'f9\'ca\'f4\'b7\'d6\'c0\'e0
+\f0 \cf0 \
+\cf3 #define kCategoryUrlString @\cf4 "http://42.120.4.67/api/app/business/private_category?app_id=161&code=%@"\cf3 \
+\cf2 //
+\f1 \'b7\'a2\'b2\'bc\'d7\'ca\'d1\'b6
+\f0 (code  app_id  information_title    information_cat_id   information_content)\cf0 \
+\cf3 #define kCreateZiXunUrlString @\cf4 "http://42.120.4.67/api/app/information/create"\cf3 \
+\cf2 //
+\f1 \'b7\'a2\'b2\'bc\'b2\'fa\'c6\'b7
+\f0 (code  app_id  product_name  product_price  product_cat_id  product_intro)\cf0 \
+\cf3 #define kCreateProductUrlString @\cf4 "http://42.120.4.67/api/app/product/create"\cf3 \
+\cf2 //
+\f1 \'c9\'cc\'d3\'d1\'c8\'a6
+\f0 \cf0 \
+\cf3 #define kFriendsUrl @\cf4 "http://42.120.4.67/api/app/business/friend_action?app_id=161&code=%@&page=%d"\cf3 \
+\cf2 //
+\f1 \'b9\'d8\'d7\'a2
+\f0 \cf0 \
+\cf3 #define kAttentionUrl @\cf4 "http://42.120.4.67/api/app/business/friend?app_id=161&code=%@&business_id=%@"\cf3 \
+\cf2 //
+\f1 \'c8\'a1\'cf\'fb\'b9\'d8\'d7\'a2
+\f0 \cf0 \
+\cf3 #define KCancelAttention @\cf4 "http://42.120.4.67/api/app/business/cancel_friend?app_id=161&code=%@&business_id=%@"\cf3 \
+\cf2 //
+\f1 \'b5\'c7\'c2\'bc\'bd\'d3\'bf\'da
+\f0 \cf0 \
+\cf3 #define kLoginUrlString @\cf4 "http://42.120.4.67/api/app/user/login?user_name=%@&user_password=%@&app_id=161"\cf3 \
+\cf0 \
+\cf2 //
+\f1 \'d7\'a2\'b2\'e1
+\f0 \cf0 \
+\cf3 #define kRegisterUrl @\cf4 "http://42.120.4.67/api/app/user/register?user_name=%@&user_password=%@&app_id=161"}

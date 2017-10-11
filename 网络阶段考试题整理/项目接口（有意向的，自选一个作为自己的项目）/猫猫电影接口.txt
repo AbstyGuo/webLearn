@@ -1,0 +1,84 @@
+
+
+1，电影界面
+1.1 http://api.mobile.meituan.com/advert/v3/configs?client=iphone&ci=1&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+1.2 http://www.meituan.com/api/v2/appstatus?ci=1&movieBundleVersion=86&name=movie&type=ios&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&version=86
+
+1.3开始广告
+ http://api.mobile.meituan.com/dianying/posters.json?client=iphone&ci=1&city_id=1&movieBundleVersion=86&poster_type=3&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+1.4 主要的
+http://api.mobile.meituan.com/dianying/v4/movies.json?client=iphone&ci=1&ct=%E5%8C%97%E4%BA%AC&dt=2014.06.28&movieBundleVersion=86&order=show_desc&tp=hot&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+1.5主要的
+http://api.mobile.meituan.com/dianying/v4/movies.json?client=iphone&ci=1&ct=%E5%8C%97%E4%BA%AC&dt=2014.06.21&movieBundleVersion=86&order=show_desc&tp=coming&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+1.6scrollView广告
+http://api.mobile.meituan.com/dianying/v4/movies.json?client=iphone&ci=1&ct=%E5%8C%97%E4%BA%AC&dt=2014.06.21&movieBundleVersion=86&order=show_desc&tp=coming&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+1.
+
+2,影院
+http://api.mobile.meituan.com/dianying/v6/cinemas.json?client=iphone&ci=10&ct=%E4%B8%8A%E6%B5%B7&dvid=020000000000&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+2.1影院详情
+//http://api.mobile.meituan.com/dianying/v5/movies/shows.json?client=iphone&ci=1&cinema_id=99&movieBundleVersion=90&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+//http://api.mobile.meituan.com/dianying/v5/cinema/99.json?client=iphone&ci=1&deviceId=020000000000&movieBundleVersion=90&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+使用团800的
+影院详情
+http://m.api.tuan800.com/sub/movie21?cmd=GET_ONE_CINEMA&image=iosm2&cinemaId=752649&movieId=(null)&userId=
+
+3，电影详情
+3.1 界面
+ http://api.mobile.meituan.com/dianying/v2/movie/78379.json?client=iphone&ci=10&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+3.2 评论
+http://api.mobile.meituan.com/dianying/comments/movie/78379.json?client=iphone&ci=10&limit=10&movieBundleVersion=86&offset=0&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+http://api.mobile.meituan.com/dianying/comments/movie/78379.json?client=iphone&ci=59&limit=10&movieBundleVersion=90&offset=0&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+3.3 分享
+ http://cgi.connect.qq.com/qqconnectopen/openapi/policy_conf?sdkv=1.8&format=json&sdkp=i&client_id=100527715&oauth_consumer_key=100527715&status_os=7.1.1&status_machine=iPhone5%2C2&status_version=7
+
+4，购买详情
+http://api.mobile.meituan.com/dianying/v6/movieshows/movie/78611.json?client=iphone&ci=10&ct=%E4%B8%8A%E6%B5%B7&dt=2014-06-22&dvid=020000000000&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+http://api.mobile.meituan.com/dianying/v6/movieshows/movie/78611.json?client=iphone&ci=10&ct=%E4%B8%8A%E6%B5%B7&dvid=020000000000&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+5，影院详情
+5.1界面
+http://api.mobile.meituan.com/dianying/v5/cinema/56.json?client=iphone&ci=10&deviceId=020000000000&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+5.2 厅
+http://api.mobile.meituan.com/dianying/v5/movies/shows.json?client=iphone&ci=10&cinema_id=56&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+6，团购详情界面
+http://api.mobile.meituan.com/group/v1/deal/list/id/24960101?client=iphone&ci=10&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+7，选作页面
+http://api.mobile.meituan.com/dianying/v5/show/seats.json?utm_term=4.0.1&ci=10&utm_campaign=AmovieBmovieC110189035496448&movieBundleVersion=86&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+8，影院详情
+8.1 界面
+http://api.mobile.meituan.com/dianying/v5/cinema/8138.json?client=iphone&ci=10&deviceId=020000000000&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&venderid=A2FE0541-8300-4362-B18C-7CCF88A204ED
+
+8.2评论
+ http://api.mobile.meituan.com/dianying/v1/comments/cinema/8138.json?client=iphone&ci=10&limit=10&movieBundleVersion=86&offset=0&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+9，剧照
+ http://api.mobile.meituan.com/dianying/movie/78771/photos.json?utm_term=4.0.1&ci=10&utm_campaign=AmovieBmovie&movieBundleVersion=86&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+10，预告片
+http://api.mobile.meituan.com/dianying/movie/78771/videos.json?client=iphone&ci=10&movieBundleVersion=86&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.0.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+11.搜索
+http://api.mobile.meituan.com/dianying/v2/search/movies.json?client=iphone&ci=59&keyword=%E5%8F%98%E5%BD%A2&limit=50&movieBundleVersion=90&offset=0&tp=1&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+12.分类
+http://api.mobile.meituan.com/dianying/v2/search/movies.json?client=iphone&ci=59&keyword=%E5%89%A7%E6%83%85&limit=50&movieBundleVersion=90&offset=50&tp=3&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+http://api.mobile.meituan.com/dianying/v2/search/movies.json?client=iphone&ci=59&keyword=%E5%89%A7%E6%83%85&limit=50&movieBundleVersion=90&offset=0&tp=3&utm_campaign=AmovieBmovie&utm_content=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB&utm_medium=iphone&utm_source=AppStore&utm_term=4.1&uuid=646BFFDAD5032283EDB2EBB1561B345AFF6850FA11AEAA3C7D14B712063DDDCB
+
+

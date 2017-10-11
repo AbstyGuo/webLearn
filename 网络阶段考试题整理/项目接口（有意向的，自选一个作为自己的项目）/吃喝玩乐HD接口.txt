@@ -1,0 +1,54 @@
+借口数据是 大众点评API文档提供的接口
+
+接口需要进行SHA-1加密才能使用，并且需要加入appkey和appsecret生成签名 详见API文档
+
+
+
+// 搜索商铺
+// catehory city 和坐标 需要定位后获得 limit每页返回的商户结果条目数上限  可以追加keyword关键字 
+http://api.dianping.com/v1/business/find_businesses?category=美食&city=上海&latitude=31.18268013000488&longitude=121.42769622802734&sort=7&limit=20&offset_type=1&out_offset_type=1&platform=2
+
+// 上面网址 经过sha-1加密以及字典排序处理后的连接
+http://api.dianping.com/v1/business/find_businesses?appkey=6712640039&sign=2C4A854FC1D5E1BA8044389E3D54CFF094BAAF11&category=%E7%BE%8E%E9%A3%9F&city=%E4%B8%8A%E6%B5%B7&latitude=31.18268013000488&longitude=121.42769622802734&sort=7&limit=20&offset_type=1&out_offset_type=1&platform=2
+
+
+// 获得指定商铺信息
+// business_id必选参数 后面的参数为可选
+http://api.dianping.com/v1/business/get_single_business?business_id=6162303&out_offset_type=1&platform=2
+
+
+团购类
+
+// 获取每日新增的团购ID列表
+// 参数为必选，category为可选
+http://api.dianping.com/v1/deal/get_daily_new_id_list?city=上海&date=2013-08-10&category=
+
+// 获得当前在线的全部团购ID
+http://api.dianping.com/v1/deal/get_all_id_list?city=上海
+
+// 获得指定团购信息
+// deal_id团购ID 必选参数
+http://api.dianping.com/v1/deal/get_single_deal?deal_id=1-213915
+
+// 搜索团购
+// city 必选 其余为可选
+http://api.dianping.com/v1/deal/find_deals?city=北京&region=海淀区&category=美食&limit=3&page=1
+
+
+// 优惠券
+// 搜索优惠券
+// city必选 其余可选
+http://api.dianping.com/v1/coupon/find_coupons?city=上海&category=美食&region=长宁区&limit=30
+
+// 获取指定优惠券信息
+// coupon_id必选其余可选
+http://api.dianping.com/v1/coupon/get_single_coupon?coupon_id=194088&format=json
+
+
+
+// 获取支持商户搜索的最新城市列表
+http://api.dianping.com/v1/metadata/get_cities_with_businesses?
+
+// 获取支持商户搜索的最新城市下属区域列表
+http://api.dianping.com/v1/metadata/get_regions_with_businesses?
+

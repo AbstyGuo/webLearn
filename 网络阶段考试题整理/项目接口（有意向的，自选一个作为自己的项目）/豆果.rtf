@@ -1,0 +1,134 @@
+{\rtf1\ansi\ansicpg936\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fnil\fcharset134 STHeitiSC-Light;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red110\green5\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs48 \cf2 //\'ca\'d7\'d2\'b3
+\f1 \
+POST http://api.douguo.net/recipe/recomm    
+\f0 \'b2\'ce\'ca\'fd
+\f1 \
+client=4&sign_ran=5880b50f487d78232d89de2698439e3c&code=269ee3899b1b2d8d\
+\
+
+\f0 //\'b7\'d6\'cf\'ed\
+POST http://api.douguo.net/app/sharingtext   \'b2\'ce\'ca\'fd client=4&sign_ran=9da2fa04c2fc0aa5d58bf6b1fcbd23a4&code=29e8d291ef9f1c17\
+\
+//\'cb\'d1\'cb\'f7\
+POST http://api.douguo.net/recipe/search/0/15   \'b2\'ce\'ca\'fd   client=4&sign_ran=a43b000482afe5f54d218680c53a19de&keyword=%E7%A9%BA%E5%BF%83%E8%8F%9C&code=aa7855ef1a0d635a\
+\
+//\'cf\'ea\'c7\'e9\
+POST http://api.douguo.net/recipe/detail/217880 \'b2\'ce\'ca\'fd client=4&sign_ran=3c49dfd60cd810ddcbf798f0dc915c47&author_id=2440044&code=7d06074ee8f20a9f\
+\
+//\'c6\'c0\'c2\'db\
+POST http://api.douguo.net/recipe/flatcomments/217880/0/20\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=fa498efc0ae1935ffdeadc86a5167332&code=f8faf4979d8814fb\
+\
+//\'b7\'a2\'c6\'c0\'c2\'db\
+POST http://api.douguo.net/user/addrecipecomment\
+\'b2\'ce\'ca\'fd\
+content=%E7%9C%9F%E5%BF%83%E4%B8%8D%E9%94%99%EF%BC%8C%E6%88%91%E8%AF%B4%E7%9A%84%E6%98%AF%E7%9C%9F%E7%9A%84&to_user_id=0&client=4&reply_id=0&sign_ran=79de6d48e800e78608af07c6f457c12b&user_id=4704674&code=cebd8305667afcc8&post_id=0&type=0&recipe_id=217880\
+\
+//\'ca\'d5\'b2\'d8\
+POST http://api.douguo.net/user/addCollect\
+\'b2\'ce\'ca\'fd\
+userid=4704674&sign_ran=298b065f0634d3e74ff88593bb60b030&trigger=300&user_id=4704674&code=f1ce1f9b025bca7f&client=4&recipe_id=217880\
+\
+//\'d5\'e2\'b5\'c0\'b2\'cb\'b5\'c4\'d7\'f7\'c6\'b7\
+POST http://api.douguo.net/recipe/recipedishes/217880/0/15/0  \'b2\'ce\'ca\'fd  client=4&sign_ran=0e46d090992fb825b43532505f4855ec&code=bbfad3e083fa96fc\
+\
+//\'cb\'d1\'cb\'f7\'bf\'f2\
+POST http://api.douguo.net/recipe/suggests  \'b2\'ce\'ca\'fd\
+client=4&sign_ran=7f2470a1854a3420fabf15c70e749a2a&query=%E5%B0%8F%E7%99%BD%E8%8F%9C&code=a8f818b1f22b08c8\
+\
+//\'cb\'d1\'cb\'f7\'ba\'f3\'b5\'c4\'bd\'e1\'b9\'fb\
+POST http://api.douguo.net/recipe/search/0/15\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=f0a26d29fbd1ae1c889d7896e837e3f1&keyword=%E5%B0%8F%E7%99%BD%E8%8F%9C&code=aaf885e75535cf5b\
+\
+//\'b8\'fc\'b6\'e0\
+POST http://api.douguo.net/recipe/flatcatalogs\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=4f3150b3bc9dc4e5615abdf5c70927f2&code=0c786f2c8469ceb6\
+\
+//\'ca\'d7\'d2\'b3\'b6\'b9\'b9\'fb\'ca\'b3\'bc\'e4\
+POST http://api.douguo.net/mall/lists/0/30\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=4973b138f9c09185ee641342dffd2091&code=0ea2aaeff1a01d12\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 //\'ca\'d7\'d2\'b3\'b6\'b9\'b9\'fb\'ca\'b3\'bc\'e41\
+POST http://api.douguo.net/recipe/mallheadline/\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=4a37e17e8499a3a8bb0b3a12b66bf6fb&code=43606d40d1fe3f71\
+\
+//\'ca\'d7\'d2\'b3\'bb\'b0\'cc\'e2\'cd\'b7\
+POST http://api.douguo.net/recipe/tagdetail/\
+\'b2\'ce\'ca\'fd id=0&sign_ran=9cec0e40aa9f5645e5ff907fb3f21aa3&code=d66761c1c22cf087&client=4&tag=%E7%A7%80%E6%99%9A%E9%A4%90%EF%BC%8C%E4%B8%8A%E5%A4%B4%E6%9D%A1\
+\
+//\'ca\'d7\'d2\'b3\'bb\'b0\'cc\'e2\'d6\'d0\'b2\'bf\
+POST http://api.douguo.net/recipe/dishtag/0/30/0\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=fceecc4d811d27b49f953f140f657db2&tag=%E7%A7%80%E6%99%9A%E9%A4%90%EF%BC%8C%E4%B8%8A%E5%A4%B4%E6%9D%A1&code=703b84501210cfd4\
+\
+//\'ca\'d7\'d2\'b3\'bb\'b0\'cc\'e2\'d6\'d0\'b2\'bf\'cf\'ea\'c7\'e9\
+POST http://api.douguo.net/recipe/dish/773074\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=68961b56e4e387737d59c83a968524e5&code=197a3f7f1e23f0e1\
+\
+//\'ca\'d7\'d2\'b3\'d7\'ee\'d0\'c2\'c1\'f7\'d0\'d0\
+POST http://api.douguo.net/ranking/phase/81/0/30\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=af5fb165bee9df27a47c5f01ea28e64b&code=0c3b8dcb73383a63\
+\
+//\'ca\'d7\'d2\'b3\'d7\'ee\'d0\'c2\'c1\'f7\'d0\'d01\
+POST http://api.douguo.net/app/push\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=5d0efa4131cbabe5320b055050481bf4&code=ee5b1e42b7586467\
+\
+//\'ca\'d7\'d2\'b3\'c3\'c0\'ca\'b3\'b4\'ef\'c8\'cb\
+POST http://api.douguo.net/user/info/2523359\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=c58d8ddac587643f3f9d6e500ea8307a&code=041517a2ad532822\
+\
+//\'b4\'ef\'c8\'cb\'cf\'ea\'c7\'e9\'d2\'b3\'a3\'a8\'b9\'d8\'d7\'a2\'d2\'b3\'a3\'a9\
+POST http://api.douguo.net/user/following/2523359/0/15\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=90975d67f148ebe7c1d50c9eb0e49c82&code=f492840c1cb70121\
+\
+//\'b7\'db\'cb\'bf\
+POST http://api.douguo.net/user/followers/2523359/0/15\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=a133eb0f9b764d66a236f25a1781b77b&code=c5e5d649f07d080f\
+\
+//\'b4\'ef\'c8\'cb\'b2\'cb\'c6\'d7\
+POST http://api.douguo.net/user/userrecipes/2523359/0/15\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=5bbfcb364e799ebf80681acd78c3c999&code=eb490660f00ac782\
+\
+//\'b4\'ef\'c8\'cb\'d7\'f7\'c6\'b7\'bc\'af\
+POST http://api.douguo.net/recipe/dish/652479\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=90ce569069ab5bf552061f4b9b4c7559&code=d26c9f6970eb4961\
+\
+//\'d7\'f7\'c6\'b7\
+POST http://api.douguo.net/recipe/topdishes/0/15/0\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=b832c53c9cf8e7e00365e77b72da1ae0&code=7b57b072eefeb054\
+\
+//\'d7\'f7\'c6\'b7\'bc\'f2\'bd\'e9\
+POST http://api.douguo.net/recipe/dish/773298\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=13befabd0f3df437534fd8ede1ff413d&code=5eb4631e54fc1236\
+\
+//\'bb\'ee\'b6\'af\
+POST http://api.douguo.net/activity/lists/0/30\
+\'b2\'ce\'ca\'fd\
+client=4&sign_ran=f8d0f90490e007a607df48a6d877cf9e&code=0101031565abc8bc\
+\
+//\'bb\'ee\'b6\'af\'cf\'ea\'c7\'e9\
+GET http://m.douguo.com/try/14.html?isapp=1?f=www&isapp=1\
+\'a3\'a8\'bb\'ee\'b6\'af\'cf\'ea\'c7\'e9\'d2\'b3\'c2\'eb\'b2\'bb\'d2\'bb\'d1\'f9\'a3\'a9\
+GET http://m.douguo.com/try/13.html?isapp=1?f=www&isapp=1}

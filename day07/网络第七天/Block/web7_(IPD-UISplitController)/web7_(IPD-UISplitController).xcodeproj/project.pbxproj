@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CCC0CF51C1FA18D00833242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0CF41C1FA18D00833242 /* main.m */; };
+		7CCC0CF81C1FA18D00833242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0CF71C1FA18D00833242 /* AppDelegate.m */; };
+		7CCC0CFB1C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0CF91C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodeld */; };
+		7CCC0CFE1C1FA18D00833242 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0CFD1C1FA18D00833242 /* ViewController.m */; };
+		7CCC0D011C1FA18D00833242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC0CFF1C1FA18D00833242 /* Main.storyboard */; };
+		7CCC0D031C1FA18D00833242 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC0D021C1FA18D00833242 /* Images.xcassets */; };
+		7CCC0D061C1FA18D00833242 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CCC0D041C1FA18D00833242 /* LaunchScreen.xib */; };
+		7CCC0D121C1FA18D00833242 /* web7__IPD_UISplitController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0D111C1FA18D00833242 /* web7__IPD_UISplitController_Tests.m */; };
+		7CCC0D1D1C1FA20700833242 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0D1C1C1FA20700833242 /* LeftTableViewController.m */; };
+		7CCC0D201C1FA20E00833242 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0D1F1C1FA20E00833242 /* RightTableViewController.m */; };
+		7CCC0D231C1FA92200833242 /* MyPopOverContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC0D221C1FA92200833242 /* MyPopOverContentController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCC0D0C1C1FA18D00833242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCC0CE71C1FA18D00833242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCC0CEE1C1FA18D00833242;
+			remoteInfo = "web7_(IPD-UISplitController)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CCC0CEF1C1FA18D00833242 /* web7_(IPD-UISplitController).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web7_(IPD-UISplitController).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC0CF31C1FA18D00833242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCC0CF41C1FA18D00833242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CCC0CF61C1FA18D00833242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CCC0CF71C1FA18D00833242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CCC0CFA1C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = web7__IPD_UISplitController_.xcdatamodel; sourceTree = "<group>"; };
+		7CCC0CFC1C1FA18D00833242 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CCC0CFD1C1FA18D00833242 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CCC0D001C1FA18D00833242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCC0D021C1FA18D00833242 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CCC0D051C1FA18D00833242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CCC0D0B1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web7_(IPD-UISplitController)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCC0D101C1FA18D00833242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCC0D111C1FA18D00833242 /* web7__IPD_UISplitController_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = web7__IPD_UISplitController_Tests.m; sourceTree = "<group>"; };
+		7CCC0D1B1C1FA20700833242 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		7CCC0D1C1C1FA20700833242 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		7CCC0D1E1C1FA20E00833242 /* RightTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		7CCC0D1F1C1FA20E00833242 /* RightTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
+		7CCC0D211C1FA92200833242 /* MyPopOverContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPopOverContentController.h; sourceTree = "<group>"; };
+		7CCC0D221C1FA92200833242 /* MyPopOverContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPopOverContentController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCC0CEC1C1FA18D00833242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC0D081C1FA18D00833242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCC0CE61C1FA18D00833242 = {
+			isa = PBXGroup;
+			children = (
+				7CCC0CF11C1FA18D00833242 /* web7_(IPD-UISplitController) */,
+				7CCC0D0E1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests */,
+				7CCC0CF01C1FA18D00833242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCC0CF01C1FA18D00833242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC0CEF1C1FA18D00833242 /* web7_(IPD-UISplitController).app */,
+				7CCC0D0B1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCC0CF11C1FA18D00833242 /* web7_(IPD-UISplitController) */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC0CF61C1FA18D00833242 /* AppDelegate.h */,
+				7CCC0CF71C1FA18D00833242 /* AppDelegate.m */,
+				7CCC0CFC1C1FA18D00833242 /* ViewController.h */,
+				7CCC0CFD1C1FA18D00833242 /* ViewController.m */,
+				7CCC0D1B1C1FA20700833242 /* LeftTableViewController.h */,
+				7CCC0D1C1C1FA20700833242 /* LeftTableViewController.m */,
+				7CCC0D1E1C1FA20E00833242 /* RightTableViewController.h */,
+				7CCC0D1F1C1FA20E00833242 /* RightTableViewController.m */,
+				7CCC0D211C1FA92200833242 /* MyPopOverContentController.h */,
+				7CCC0D221C1FA92200833242 /* MyPopOverContentController.m */,
+				7CCC0CFF1C1FA18D00833242 /* Main.storyboard */,
+				7CCC0D021C1FA18D00833242 /* Images.xcassets */,
+				7CCC0D041C1FA18D00833242 /* LaunchScreen.xib */,
+				7CCC0CF91C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodeld */,
+				7CCC0CF21C1FA18D00833242 /* Supporting Files */,
+			);
+			path = "web7_(IPD-UISplitController)";
+			sourceTree = "<group>";
+		};
+		7CCC0CF21C1FA18D00833242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC0CF31C1FA18D00833242 /* Info.plist */,
+				7CCC0CF41C1FA18D00833242 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CCC0D0E1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC0D111C1FA18D00833242 /* web7__IPD_UISplitController_Tests.m */,
+				7CCC0D0F1C1FA18D00833242 /* Supporting Files */,
+			);
+			path = "web7_(IPD-UISplitController)Tests";
+			sourceTree = "<group>";
+		};
+		7CCC0D0F1C1FA18D00833242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC0D101C1FA18D00833242 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCC0CEE1C1FA18D00833242 /* web7_(IPD-UISplitController) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCC0D151C1FA18D00833242 /* Build configuration list for PBXNativeTarget "web7_(IPD-UISplitController)" */;
+			buildPhases = (
+				7CCC0CEB1C1FA18D00833242 /* Sources */,
+				7CCC0CEC1C1FA18D00833242 /* Frameworks */,
+				7CCC0CED1C1FA18D00833242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "web7_(IPD-UISplitController)";
+			productName = "web7_(IPD-UISplitController)";
+			productReference = 7CCC0CEF1C1FA18D00833242 /* web7_(IPD-UISplitController).app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCC0D0A1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCC0D181C1FA18D00833242 /* Build configuration list for PBXNativeTarget "web7_(IPD-UISplitController)Tests" */;
+			buildPhases = (
+				7CCC0D071C1FA18D00833242 /* Sources */,
+				7CCC0D081C1FA18D00833242 /* Frameworks */,
+				7CCC0D091C1FA18D00833242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCC0D0D1C1FA18D00833242 /* PBXTargetDependency */,
+			);
+			name = "web7_(IPD-UISplitController)Tests";
+			productName = "web7_(IPD-UISplitController)Tests";
+			productReference = 7CCC0D0B1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCC0CE71C1FA18D00833242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zhulei;
+				TargetAttributes = {
+					7CCC0CEE1C1FA18D00833242 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7CCC0D0A1C1FA18D00833242 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7CCC0CEE1C1FA18D00833242;
+					};
+				};
+			};
+			buildConfigurationList = 7CCC0CEA1C1FA18D00833242 /* Build configuration list for PBXProject "web7_(IPD-UISplitController)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCC0CE61C1FA18D00833242;
+			productRefGroup = 7CCC0CF01C1FA18D00833242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCC0CEE1C1FA18D00833242 /* web7_(IPD-UISplitController) */,
+				7CCC0D0A1C1FA18D00833242 /* web7_(IPD-UISplitController)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCC0CED1C1FA18D00833242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC0D011C1FA18D00833242 /* Main.storyboard in Resources */,
+				7CCC0D061C1FA18D00833242 /* LaunchScreen.xib in Resources */,
+				7CCC0D031C1FA18D00833242 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC0D091C1FA18D00833242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCC0CEB1C1FA18D00833242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC0CFB1C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodeld in Sources */,
+				7CCC0D1D1C1FA20700833242 /* LeftTableViewController.m in Sources */,
+				7CCC0D201C1FA20E00833242 /* RightTableViewController.m in Sources */,
+				7CCC0CF81C1FA18D00833242 /* AppDelegate.m in Sources */,
+				7CCC0CFE1C1FA18D00833242 /* ViewController.m in Sources */,
+				7CCC0CF51C1FA18D00833242 /* main.m in Sources */,
+				7CCC0D231C1FA92200833242 /* MyPopOverContentController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCC0D071C1FA18D00833242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCC0D121C1FA18D00833242 /* web7__IPD_UISplitController_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCC0D0D1C1FA18D00833242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCC0CEE1C1FA18D00833242 /* web7_(IPD-UISplitController) */;
+			targetProxy = 7CCC0D0C1C1FA18D00833242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCC0CFF1C1FA18D00833242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCC0D001C1FA18D00833242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCC0D041C1FA18D00833242 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCC0D051C1FA18D00833242 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCC0D131C1FA18D00833242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CCC0D141C1FA18D00833242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCC0D161C1FA18D00833242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web7_(IPD-UISplitController)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CCC0D171C1FA18D00833242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web7_(IPD-UISplitController)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CCC0D191C1FA18D00833242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "web7_(IPD-UISplitController)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web7_(IPD-UISplitController).app/web7_(IPD-UISplitController)";
+			};
+			name = Debug;
+		};
+		7CCC0D1A1C1FA18D00833242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "web7_(IPD-UISplitController)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web7_(IPD-UISplitController).app/web7_(IPD-UISplitController)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCC0CEA1C1FA18D00833242 /* Build configuration list for PBXProject "web7_(IPD-UISplitController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC0D131C1FA18D00833242 /* Debug */,
+				7CCC0D141C1FA18D00833242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCC0D151C1FA18D00833242 /* Build configuration list for PBXNativeTarget "web7_(IPD-UISplitController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC0D161C1FA18D00833242 /* Debug */,
+				7CCC0D171C1FA18D00833242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CCC0D181C1FA18D00833242 /* Build configuration list for PBXNativeTarget "web7_(IPD-UISplitController)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCC0D191C1FA18D00833242 /* Debug */,
+				7CCC0D1A1C1FA18D00833242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CCC0CF91C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CCC0CFA1C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodel */,
+			);
+			currentVersion = 7CCC0CFA1C1FA18D00833242 /* web7__IPD_UISplitController_.xcdatamodel */;
+			path = web7__IPD_UISplitController_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CCC0CE71C1FA18D00833242 /* Project object */;
+}

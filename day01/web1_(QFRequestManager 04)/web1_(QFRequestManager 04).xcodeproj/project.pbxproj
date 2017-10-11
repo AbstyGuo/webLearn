@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EC0FA5C1C1561AC00A1D4CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA5B1C1561AC00A1D4CD /* main.m */; };
+		4EC0FA5F1C1561AC00A1D4CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA5E1C1561AC00A1D4CD /* AppDelegate.m */; };
+		4EC0FA621C1561AC00A1D4CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA611C1561AC00A1D4CD /* ViewController.m */; };
+		4EC0FA651C1561AC00A1D4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC0FA631C1561AC00A1D4CD /* Main.storyboard */; };
+		4EC0FA671C1561AC00A1D4CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC0FA661C1561AC00A1D4CD /* Images.xcassets */; };
+		4EC0FA6A1C1561AC00A1D4CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC0FA681C1561AC00A1D4CD /* LaunchScreen.xib */; };
+		4EC0FA761C1561AC00A1D4CD /* web1__QFRequestManager_04_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA751C1561AC00A1D4CD /* web1__QFRequestManager_04_Tests.m */; };
+		4EC0FA821C1562D200A1D4CD /* QFRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA811C1562D200A1D4CD /* QFRequestManager.m */; };
+		4EC0FA851C1566EB00A1D4CD /* QFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA841C1566EB00A1D4CD /* QFRequest.m */; };
+		4EC0FA881C156B0900A1D4CD /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0FA871C156B0900A1D4CD /* NSString+Hashing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EC0FA701C1561AC00A1D4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EC0FA4E1C1561AC00A1D4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EC0FA551C1561AC00A1D4CD;
+			remoteInfo = "web1_(QFRequestManager 04)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EC0FA561C1561AC00A1D4CD /* web1_(QFRequestManager 04).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web1_(QFRequestManager 04).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC0FA5A1C1561AC00A1D4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC0FA5B1C1561AC00A1D4CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EC0FA5D1C1561AC00A1D4CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EC0FA5E1C1561AC00A1D4CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EC0FA601C1561AC00A1D4CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4EC0FA611C1561AC00A1D4CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4EC0FA641C1561AC00A1D4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EC0FA661C1561AC00A1D4CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EC0FA691C1561AC00A1D4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4EC0FA6F1C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web1_(QFRequestManager 04)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC0FA741C1561AC00A1D4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC0FA751C1561AC00A1D4CD /* web1__QFRequestManager_04_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = web1__QFRequestManager_04_Tests.m; sourceTree = "<group>"; };
+		4EC0FA801C1562D200A1D4CD /* QFRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRequestManager.h; sourceTree = "<group>"; };
+		4EC0FA811C1562D200A1D4CD /* QFRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRequestManager.m; sourceTree = "<group>"; };
+		4EC0FA831C1566EB00A1D4CD /* QFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRequest.h; sourceTree = "<group>"; };
+		4EC0FA841C1566EB00A1D4CD /* QFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRequest.m; sourceTree = "<group>"; };
+		4EC0FA861C156B0900A1D4CD /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		4EC0FA871C156B0900A1D4CD /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EC0FA531C1561AC00A1D4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC0FA6C1C1561AC00A1D4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EC0FA4D1C1561AC00A1D4CD = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA7F1C15622300A1D4CD /* QFRequestManage */,
+				4EC0FA581C1561AC00A1D4CD /* web1_(QFRequestManager 04) */,
+				4EC0FA721C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests */,
+				4EC0FA571C1561AC00A1D4CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EC0FA571C1561AC00A1D4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA561C1561AC00A1D4CD /* web1_(QFRequestManager 04).app */,
+				4EC0FA6F1C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EC0FA581C1561AC00A1D4CD /* web1_(QFRequestManager 04) */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA5D1C1561AC00A1D4CD /* AppDelegate.h */,
+				4EC0FA5E1C1561AC00A1D4CD /* AppDelegate.m */,
+				4EC0FA601C1561AC00A1D4CD /* ViewController.h */,
+				4EC0FA611C1561AC00A1D4CD /* ViewController.m */,
+				4EC0FA631C1561AC00A1D4CD /* Main.storyboard */,
+				4EC0FA661C1561AC00A1D4CD /* Images.xcassets */,
+				4EC0FA681C1561AC00A1D4CD /* LaunchScreen.xib */,
+				4EC0FA591C1561AC00A1D4CD /* Supporting Files */,
+			);
+			path = "web1_(QFRequestManager 04)";
+			sourceTree = "<group>";
+		};
+		4EC0FA591C1561AC00A1D4CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA5A1C1561AC00A1D4CD /* Info.plist */,
+				4EC0FA5B1C1561AC00A1D4CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC0FA721C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA751C1561AC00A1D4CD /* web1__QFRequestManager_04_Tests.m */,
+				4EC0FA731C1561AC00A1D4CD /* Supporting Files */,
+			);
+			path = "web1_(QFRequestManager 04)Tests";
+			sourceTree = "<group>";
+		};
+		4EC0FA731C1561AC00A1D4CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA741C1561AC00A1D4CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EC0FA7F1C15622300A1D4CD /* QFRequestManage */ = {
+			isa = PBXGroup;
+			children = (
+				4EC0FA861C156B0900A1D4CD /* NSString+Hashing.h */,
+				4EC0FA871C156B0900A1D4CD /* NSString+Hashing.m */,
+				4EC0FA801C1562D200A1D4CD /* QFRequestManager.h */,
+				4EC0FA811C1562D200A1D4CD /* QFRequestManager.m */,
+				4EC0FA831C1566EB00A1D4CD /* QFRequest.h */,
+				4EC0FA841C1566EB00A1D4CD /* QFRequest.m */,
+			);
+			name = QFRequestManage;
+			path = "web1_(QFRequestManager 04)/QFRequestManage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EC0FA551C1561AC00A1D4CD /* web1_(QFRequestManager 04) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC0FA791C1561AC00A1D4CD /* Build configuration list for PBXNativeTarget "web1_(QFRequestManager 04)" */;
+			buildPhases = (
+				4EC0FA521C1561AC00A1D4CD /* Sources */,
+				4EC0FA531C1561AC00A1D4CD /* Frameworks */,
+				4EC0FA541C1561AC00A1D4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "web1_(QFRequestManager 04)";
+			productName = "web1_(QFRequestManager 04)";
+			productReference = 4EC0FA561C1561AC00A1D4CD /* web1_(QFRequestManager 04).app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EC0FA6E1C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC0FA7C1C1561AC00A1D4CD /* Build configuration list for PBXNativeTarget "web1_(QFRequestManager 04)Tests" */;
+			buildPhases = (
+				4EC0FA6B1C1561AC00A1D4CD /* Sources */,
+				4EC0FA6C1C1561AC00A1D4CD /* Frameworks */,
+				4EC0FA6D1C1561AC00A1D4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EC0FA711C1561AC00A1D4CD /* PBXTargetDependency */,
+			);
+			name = "web1_(QFRequestManager 04)Tests";
+			productName = "web1_(QFRequestManager 04)Tests";
+			productReference = 4EC0FA6F1C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EC0FA4E1C1561AC00A1D4CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "郭永峰";
+				TargetAttributes = {
+					4EC0FA551C1561AC00A1D4CD = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4EC0FA6E1C1561AC00A1D4CD = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4EC0FA551C1561AC00A1D4CD;
+					};
+				};
+			};
+			buildConfigurationList = 4EC0FA511C1561AC00A1D4CD /* Build configuration list for PBXProject "web1_(QFRequestManager 04)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EC0FA4D1C1561AC00A1D4CD;
+			productRefGroup = 4EC0FA571C1561AC00A1D4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EC0FA551C1561AC00A1D4CD /* web1_(QFRequestManager 04) */,
+				4EC0FA6E1C1561AC00A1D4CD /* web1_(QFRequestManager 04)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EC0FA541C1561AC00A1D4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC0FA651C1561AC00A1D4CD /* Main.storyboard in Resources */,
+				4EC0FA6A1C1561AC00A1D4CD /* LaunchScreen.xib in Resources */,
+				4EC0FA671C1561AC00A1D4CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC0FA6D1C1561AC00A1D4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EC0FA521C1561AC00A1D4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC0FA881C156B0900A1D4CD /* NSString+Hashing.m in Sources */,
+				4EC0FA821C1562D200A1D4CD /* QFRequestManager.m in Sources */,
+				4EC0FA621C1561AC00A1D4CD /* ViewController.m in Sources */,
+				4EC0FA851C1566EB00A1D4CD /* QFRequest.m in Sources */,
+				4EC0FA5F1C1561AC00A1D4CD /* AppDelegate.m in Sources */,
+				4EC0FA5C1C1561AC00A1D4CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EC0FA6B1C1561AC00A1D4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC0FA761C1561AC00A1D4CD /* web1__QFRequestManager_04_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EC0FA711C1561AC00A1D4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EC0FA551C1561AC00A1D4CD /* web1_(QFRequestManager 04) */;
+			targetProxy = 4EC0FA701C1561AC00A1D4CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EC0FA631C1561AC00A1D4CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC0FA641C1561AC00A1D4CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EC0FA681C1561AC00A1D4CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EC0FA691C1561AC00A1D4CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EC0FA771C1561AC00A1D4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EC0FA781C1561AC00A1D4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EC0FA7A1C1561AC00A1D4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web1_(QFRequestManager 04)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EC0FA7B1C1561AC00A1D4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web1_(QFRequestManager 04)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EC0FA7D1C1561AC00A1D4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "web1_(QFRequestManager 04)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web1_(QFRequestManager 04).app/web1_(QFRequestManager 04)";
+			};
+			name = Debug;
+		};
+		4EC0FA7E1C1561AC00A1D4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "web1_(QFRequestManager 04)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web1_(QFRequestManager 04).app/web1_(QFRequestManager 04)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EC0FA511C1561AC00A1D4CD /* Build configuration list for PBXProject "web1_(QFRequestManager 04)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC0FA771C1561AC00A1D4CD /* Debug */,
+				4EC0FA781C1561AC00A1D4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC0FA791C1561AC00A1D4CD /* Build configuration list for PBXNativeTarget "web1_(QFRequestManager 04)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC0FA7A1C1561AC00A1D4CD /* Debug */,
+				4EC0FA7B1C1561AC00A1D4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EC0FA7C1C1561AC00A1D4CD /* Build configuration list for PBXNativeTarget "web1_(QFRequestManager 04)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC0FA7D1C1561AC00A1D4CD /* Debug */,
+				4EC0FA7E1C1561AC00A1D4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EC0FA4E1C1561AC00A1D4CD /* Project object */;
+}

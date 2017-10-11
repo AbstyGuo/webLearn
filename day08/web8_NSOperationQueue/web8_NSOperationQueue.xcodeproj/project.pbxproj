@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECA4F771C21128400656545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA4F761C21128400656545 /* main.m */; };
+		4ECA4F7A1C21128400656545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA4F791C21128400656545 /* AppDelegate.m */; };
+		4ECA4F7D1C21128400656545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA4F7C1C21128400656545 /* ViewController.m */; };
+		4ECA4F801C21128400656545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA4F7E1C21128400656545 /* Main.storyboard */; };
+		4ECA4F821C21128400656545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA4F811C21128400656545 /* Images.xcassets */; };
+		4ECA4F851C21128400656545 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA4F831C21128400656545 /* LaunchScreen.xib */; };
+		4ECA4F911C21128500656545 /* web8_NSOperationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA4F901C21128500656545 /* web8_NSOperationQueueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECA4F8B1C21128500656545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA4F691C21128400656545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECA4F701C21128400656545;
+			remoteInfo = web8_NSOperationQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECA4F711C21128400656545 /* web8_NSOperationQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = web8_NSOperationQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA4F751C21128400656545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECA4F761C21128400656545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ECA4F781C21128400656545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ECA4F791C21128400656545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ECA4F7B1C21128400656545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ECA4F7C1C21128400656545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ECA4F7F1C21128400656545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECA4F811C21128400656545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4ECA4F841C21128400656545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4ECA4F8A1C21128500656545 /* web8_NSOperationQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = web8_NSOperationQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA4F8F1C21128500656545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECA4F901C21128500656545 /* web8_NSOperationQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = web8_NSOperationQueueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECA4F6E1C21128400656545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA4F871C21128500656545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECA4F681C21128400656545 = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F731C21128400656545 /* web8_NSOperationQueue */,
+				4ECA4F8D1C21128500656545 /* web8_NSOperationQueueTests */,
+				4ECA4F721C21128400656545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECA4F721C21128400656545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F711C21128400656545 /* web8_NSOperationQueue.app */,
+				4ECA4F8A1C21128500656545 /* web8_NSOperationQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECA4F731C21128400656545 /* web8_NSOperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F781C21128400656545 /* AppDelegate.h */,
+				4ECA4F791C21128400656545 /* AppDelegate.m */,
+				4ECA4F7B1C21128400656545 /* ViewController.h */,
+				4ECA4F7C1C21128400656545 /* ViewController.m */,
+				4ECA4F7E1C21128400656545 /* Main.storyboard */,
+				4ECA4F811C21128400656545 /* Images.xcassets */,
+				4ECA4F831C21128400656545 /* LaunchScreen.xib */,
+				4ECA4F741C21128400656545 /* Supporting Files */,
+			);
+			path = web8_NSOperationQueue;
+			sourceTree = "<group>";
+		};
+		4ECA4F741C21128400656545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F751C21128400656545 /* Info.plist */,
+				4ECA4F761C21128400656545 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ECA4F8D1C21128500656545 /* web8_NSOperationQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F901C21128500656545 /* web8_NSOperationQueueTests.m */,
+				4ECA4F8E1C21128500656545 /* Supporting Files */,
+			);
+			path = web8_NSOperationQueueTests;
+			sourceTree = "<group>";
+		};
+		4ECA4F8E1C21128500656545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA4F8F1C21128500656545 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECA4F701C21128400656545 /* web8_NSOperationQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA4F941C21128500656545 /* Build configuration list for PBXNativeTarget "web8_NSOperationQueue" */;
+			buildPhases = (
+				4ECA4F6D1C21128400656545 /* Sources */,
+				4ECA4F6E1C21128400656545 /* Frameworks */,
+				4ECA4F6F1C21128400656545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = web8_NSOperationQueue;
+			productName = web8_NSOperationQueue;
+			productReference = 4ECA4F711C21128400656545 /* web8_NSOperationQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ECA4F891C21128500656545 /* web8_NSOperationQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA4F971C21128500656545 /* Build configuration list for PBXNativeTarget "web8_NSOperationQueueTests" */;
+			buildPhases = (
+				4ECA4F861C21128500656545 /* Sources */,
+				4ECA4F871C21128500656545 /* Frameworks */,
+				4ECA4F881C21128500656545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECA4F8C1C21128500656545 /* PBXTargetDependency */,
+			);
+			name = web8_NSOperationQueueTests;
+			productName = web8_NSOperationQueueTests;
+			productReference = 4ECA4F8A1C21128500656545 /* web8_NSOperationQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECA4F691C21128400656545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "郭永峰";
+				TargetAttributes = {
+					4ECA4F701C21128400656545 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					4ECA4F891C21128500656545 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 4ECA4F701C21128400656545;
+					};
+				};
+			};
+			buildConfigurationList = 4ECA4F6C1C21128400656545 /* Build configuration list for PBXProject "web8_NSOperationQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECA4F681C21128400656545;
+			productRefGroup = 4ECA4F721C21128400656545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECA4F701C21128400656545 /* web8_NSOperationQueue */,
+				4ECA4F891C21128500656545 /* web8_NSOperationQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECA4F6F1C21128400656545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA4F801C21128400656545 /* Main.storyboard in Resources */,
+				4ECA4F851C21128400656545 /* LaunchScreen.xib in Resources */,
+				4ECA4F821C21128400656545 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA4F881C21128500656545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECA4F6D1C21128400656545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA4F7D1C21128400656545 /* ViewController.m in Sources */,
+				4ECA4F7A1C21128400656545 /* AppDelegate.m in Sources */,
+				4ECA4F771C21128400656545 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA4F861C21128500656545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA4F911C21128500656545 /* web8_NSOperationQueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECA4F8C1C21128500656545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECA4F701C21128400656545 /* web8_NSOperationQueue */;
+			targetProxy = 4ECA4F8B1C21128500656545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ECA4F7E1C21128400656545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA4F7F1C21128400656545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECA4F831C21128400656545 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA4F841C21128400656545 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECA4F921C21128500656545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECA4F931C21128500656545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECA4F951C21128500656545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = web8_NSOperationQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ECA4F961C21128500656545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = web8_NSOperationQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4ECA4F981C21128500656545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = web8_NSOperationQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web8_NSOperationQueue.app/web8_NSOperationQueue";
+			};
+			name = Debug;
+		};
+		4ECA4F991C21128500656545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = web8_NSOperationQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web8_NSOperationQueue.app/web8_NSOperationQueue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECA4F6C1C21128400656545 /* Build configuration list for PBXProject "web8_NSOperationQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA4F921C21128500656545 /* Debug */,
+				4ECA4F931C21128500656545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA4F941C21128500656545 /* Build configuration list for PBXNativeTarget "web8_NSOperationQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA4F951C21128500656545 /* Debug */,
+				4ECA4F961C21128500656545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ECA4F971C21128500656545 /* Build configuration list for PBXNativeTarget "web8_NSOperationQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA4F981C21128500656545 /* Debug */,
+				4ECA4F991C21128500656545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECA4F691C21128400656545 /* Project object */;
+}

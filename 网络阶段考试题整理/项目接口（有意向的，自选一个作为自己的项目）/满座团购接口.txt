@@ -1,0 +1,15 @@
+ 主界面接口：http://mps.manzuo.com/mps/cate?sid=123&id=10758667&cc=beijing&pt=all&ffst=%d&mnt=15&st=-1&hp=1"
+
+广告1 @"http://mp.manzuo.com/pic/act/suning.jpg"
+广告2 @"http://mp.manzuo.com/pic/act/bryh.jpg"
+
+目录 @"http://mp.manzuo.com/china/beijing/categories.xml"
+
+
+周边接口： @"http://mps.manzuo.com/mps/nearby?id=&&cc=beijing&pt=1,2,3,4,6&ffst=0&mnt=15&lati=40.034415&longi=116.344578&cv=1&hs=1"
+付费接口 @"https://wappaygw.alipay.com/cashier/wapcashier_pure_login_ssl.htm?awid=ykgl2c94iUHoO7WATTKyj5aANuaFzQmcashier"
+
+
+查询接口 ： @"http://mps.manzuo.com/mps/search?id=&cc=%@&ffst=0&mnt=15&kw=%@&st=-1"
+SearchKey @"http://mp.manzuo.com/china/beijing/hotkey.xml"
+关键词查询接口 @"http://mps.manzuo.com/mps/suggest?pre=%@"

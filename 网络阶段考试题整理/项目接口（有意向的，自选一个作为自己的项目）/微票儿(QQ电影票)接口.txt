@@ -1,0 +1,5 @@
+微票儿(QQ电影票):
+正在热映:
+http://piao.163.com/m/movie/list.html?app_id=2&mobileType=iPhone&ver=2.5&channel=lede&deviceId=C1985DD9-0125-4AB5-B66B-B91A85824BBA&apiVer=11&city=110000
+电影详情:
+http://piao.163.com/m/movie/detail.html?app_id=2&mobileType=iPhone&ver=2.5&channel=lede&deviceId=C1985DDj9-0125-4AB5-B66B-B91A85824BBA&apiVer=11&city=110000&movie_id=44086

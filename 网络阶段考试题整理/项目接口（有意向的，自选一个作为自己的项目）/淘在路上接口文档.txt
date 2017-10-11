@@ -1,0 +1,28 @@
+//商品概要
+#define kcommodityViewControllerUrl @"http://tao.117go.com:8011/data/productApi/getPrdById?lat=0.000000&lng=0.000000&prdId=%@&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//首页
+#define kSelectionViewControllerUrl @"http://tao.117go.com:8011/data/productApi/getRecommendProducts?token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+
+//附近好玩的
+#define kNearby_ViewControllerUrl @"http://tao.117go.com:8011/data/productApi/getPrdListWithCondition?lat=40.034641&radius=500.000000&lng=116.344622&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans%20HTTP/1.1%20Host:%20tao.117go.com:8011"
+
+
+//热门目的地下级页面的下级页面，与附近好玩的是一个界面
+
+#define kremenMudidiUrl @"http://tao.117go.com:8011/data/productApi/getPrdListWithCondition?cateId=%@&lng=116.344613&lat=40.034770&destId=&token=62546efa349038a7ac8bb22fb4ff8327&v=ti1.1.2&vc=AppStore&vd=1e4c7935a7d6fb87&lang=zh-Hans"
+
+
+
+#define kappLoadUrlString @"http://tao.117go.com:8011/data/destApi/getDestIndex?lat=40.034463&lng=116.344541&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//北京和热门目的地
+#define kappLoadNumberUrlString @"http://tao.117go.com:8011/data/destApi/getDestList?lat=40.034463&lng=116.344541&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//怎么玩
+#define kappwhatUrlString @"http://tao.117go.com:8011/data/destApi/getCategoriesUnderDest?refer=tdNear&lat=40.034477&lng=116.344506&destId=%@&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//去哪玩
+#define kappWhereUrlString @"http://tao.117go.com:8011/data/destApi/getSceneriesUnderDest?destId=%@&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//去哪玩里点击某一个具体景点
+#define kappWherDetailUrlString @"http://tao.117go.com:8011/data/destApi/getSceneryById?sceneryId=%@&token=72449006dba38fdb6fa311a8e65b483a&v=ti1.1.2&vc=AppStore&vd=e5eea02382c35277&lang=zh-Hans"
+//三方支付
+#define kappTaobaoUrlString @"http://tao.117go.com:8011/data/inApp/order?prdId=2299&prdItemId=2263&productTypeId=4&saleMode=1&refer=homePromote&id2=6&v=ti1.1.2&vc=AppStore&vd=1e4c7935a7d6fb87&token=62546efa349038a7ac8bb22fb4ff8327&lang=zh-Hans&isontheroadinstalled=0"
+//桂林
+#define kappguilinUrlString @"http://tao.117go.com:8011/data/destApi/getCategoriesUnderDest?refer=tdHot&lat=40.034770&lng=116.344613&destId=%@&token=62546efa349038a7ac8bb22fb4ff8327&v=ti1.1.2&vc=AppStore&vd=1e4c7935a7d6fb87&lang=zh-Hans"

@@ -1,0 +1,66 @@
+//新闻
+//最新
+#define kLatestNewsUrlString @"http://lol.data.shiwan.com/getArticleListImprove/?cid_rel=207&page=%d&num=10"
+//活动
+#define kActivityUrlString @"http://lol.data.shiwan.com/getArticleListImprove/?cid_rel=215&page=%d&num=10"
+//赛事
+#define kMatchUrlStirng @"http://lol.data.shiwan.com/getArticleListImprove/?cid_rel=216&page=%d&num=10"
+//神贴
+#define kGreatPostUrlString @"http://lol.data.shiwan.com/getArticleListImprove/?cid_rel=212&page=%d&num=10"
+//新闻详细内容
+#define kDetailNewsInfoUrlString @"http://lol.data.shiwan.com/getArticleInfo/loldata?article_id=%@"
+//游戏大区
+#define kServerNameUrlString @"http://lol.data.shiwan.com/score"
+//角色信息
+#define kPlayerInfoUrlString @"http://115.29.206.154:8080/LOL_Query/service/ZDLQuery?playerName=%@&serverName=%@"
+//比赛记录详情
+#define kGameRecordUrlString @"http://115.29.206.154:8080/LOL_Query/service/MatchDetail?playerName=%@&serverName=%@&shareKey=%@&queueType=%@"
+//常用英雄比赛列表
+#define kFavoriteHeroGameRecordUrlString @"http://115.29.206.154:8080/LOL_Query/service/MatchList?playerName=%@&serverName=%@&heroName=%@"
+//常用英雄
+#define kFavoriteHeroUrlString @"http://lol.data.shiwan.com/getUsedHeros/?target=%@&serverName=%@"
+//战绩榜
+#define kRecordListUrlString @"http://115.29.206.154:8080/LOL_Query/service/ZDLRankings?serverName=%@&pageNum=%d"
+//排位榜
+#define kListOfQualifyingUrlString @"http://115.29.206.154:8080/LOL_Query/service/PWRankings?serverName=%@&pageNum=%d"
+//本周免费英雄
+#define kFreeHeroUrlString @"http://lol.data.shiwan.com/lolHeros/?filter=&type=free"
+//全部英雄
+#define kAllHeroUrlString @"http://lol.data.shiwan.com/lolHeros/?filter=&type=all"
+//筛选英雄
+#define kFilterHeroUrlString @"http://lol.data.shiwan.com/lolHeros/?filter=%@&type=all"
+//英雄详细信息
+#define kHeroDetailInfoUrlString @"http://lol.data.shiwan.com/lolHeroInfo/?id=%@"
+//英雄出装
+#define kHeroEquipmentUrlString @"http://db.duowan.com/lolcz/img/ku11/api/lolcz.php?championName=%@&limit=7"
+//装备图片
+#define kEquipmentImageUrlString @"http://img.lolbox.duowan.com/zb/%@_64x64.png"
+//英雄技能
+#define kSkillImageUrlString @"http://img.lolbox.duowan.com/abilities/%@_%@_64x64.png"
+//英雄攻略
+#define kHeroStrategyUrlString @"http://lol.data.shiwan.com/getHeroStrategy/?id=%@"
+//攻略详情
+#define kDetailStrategyUrlString @"http://lol.data.shiwan.com/getSubjectInfo/?sid=%@"
+//英雄榜
+#define kHeroTopUrlString @"http://115.29.206.154:8080/LOL_Query/service/HeroTen?heroName=%@"
+//英雄视频
+#define kHeroVideoUrlString @"http://42.96.151.160/lol/androidfront/listSearchVideo.action?page=%d&searchKey=%@"
+//攻略心得
+#define kComprehensiveStrategyUrlString @"http://lol.data.shiwan.com/getSubjectList/?tag_id=212&page=%d&num=20"
+//所有物品
+#define kAllEquipmentUrlString @"http://lol.data.shiwan.com/lolItemFilter/lolvideo?index=99&page=1&num=20"
+//物品详情
+#define kDetailEquipmentInfoUrlString @"http://lol.data.shiwan.com/lolItemInfo/?id=%@"
+//召唤师技能
+#define kSpellUrlString @"http://lol.data.shiwan.com/lolSpell"
+//符文
+#define kRuneUrlString @"http://lol.data.shiwan.com/lolRune/?tag=%@&tier=%@"
+
+//最新视频
+#define kNewVideoUrlString @"http://42.96.151.160/lol/androidfront/listVideo.action?catId=-1&page=%d"
+//全部视频分类
+#define kAllVideoUrlString @"http://42.96.151.160/lol/androidfront/listVideoModule.action"
+//详细视频列表
+#define kDetailVideoUrlString @"http://42.96.151.160/lol/androidfront/listVideo.action?catId=%@&page=%d"
+//搜索视频
+#define kVideoSearchUrlString @"http://42.96.151.160/lol/androidfront/listSearchVideo.action?page=%d&searchKey=%@"
